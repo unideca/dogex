@@ -105,8 +105,8 @@ const Header : FC<HeaderProps> = ({tokenHomeRef, tokenServiceRef, tokenAboutRef,
                     borderRadius="24px"
                     overflow="hidden"
                     as="a" //down
-                    href="/documents/EarthPepe_Whitepaper_eng.pdf" //down
-                    download="EarthPepe_Whitepaper_eng.pdf" // 다운로드 속성 추가
+                    href="/documents/DOGEX whitepaper ver 0.1_eng.pdf" //down
+                    download="DOGEX whitepaper ver 0.1_eng.pdf" // 다운로드 속성 추가
                     _hover= {{
                         backgroundColor : "#0C0E27",
                         _before : {

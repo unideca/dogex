@@ -15,7 +15,7 @@ const TokenEx : FC<TokenExProps> = () => {
         <Flex w="full" minH="70vh" alignItems="center"> 
             <Flex mx="auto" mt={56}>
                 <Flex alignItems="center">                  
-                    <Flex w="full" justifyContent="center">
+                    <Flex pl={12} w="full" justifyContent="center">
                         <Flex w="full" flexDir="column" justifyContent="center" alignItems="center">
                             <MotionImg
                                 h={["420px","400px","400px","0px","0px","0px","0px","0px"]}
@@ -31,13 +31,16 @@ const TokenEx : FC<TokenExProps> = () => {
                                     repeatType: "loop"
                                 }}
                             />
-                            <Text w={["320px","400px","400px","400px","400px","400px","400px"]} fontSize={["32px","32px","32px","32px","32px","40px","40px"]} fontWeight="bold" color="#333333">
+                            <Text w={["full","400px","400px","400px","400px","400px","400px"]} 
+                            fontSize={["32px","32px","32px","32px","32px","40px","40px"]} 
+                            fontWeight="bold" 
+                            color="#333333">
                                 DogeX is a new paradigm in meme coin trading
                             </Text>
                             <Flex py={5} gap={4} w={["340px","400px","400px","400px","400px","400px","400px"]}>
-                                <Img src="images/t_logo.png" w={["100px","120px","120px","120px","120px","120px","120px"]}/>
-                                <Img src="images/x_logo.png"w={["100px","120px","120px","120px","120px","120px","120px"]}/>
-                                <Img src="images/medium_logo.png" w={["100px","120px","120px","120px","120px","120px","120px"]}/>
+                                <Img src="images/t_logo.png" w={["95px","120px","120px","120px","120px","120px","120px"]}/>
+                                <Img src="images/x_logo.png"w={["95px","120px","120px","120px","120px","120px","120px"]}/>
+                                <Img src="images/medium_logo.png" w={["95px","120px","120px","120px","120px","120px","120px"]}/>
                             </Flex>
                             <Flex gap={3} py={5} w={["340px","400px","400px","400px","400px","400px","400px"]} justifyContent="center">
                             <Button

@@ -35,7 +35,7 @@ const TokenEx : FC<TokenExProps> = () => {
                             fontSize={["32px","32px","32px","32px","32px","40px","40px"]} 
                             fontWeight="bold" 
                             color="#333333">
-                                DogeX is a new paradigm in meme coin trading
+                                The mission to take Doge beyond Earth, all the way to Mars!
                             </Text>
                             <Flex py={5} gap={4} w={["340px","400px","400px","400px","400px","400px","400px"]}>
                                 <Img src="images/t_logo.png" w={["95px","120px","120px","120px","120px","120px","120px"]}/>
